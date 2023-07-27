@@ -6,28 +6,27 @@ namespace MyRabbitMQApp
 {
     class Producer
     {
-        public void SendMessage()
+        public void SendMessage(string jsonData, string queueName)
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
 
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "hello",
+                channel.QueueDeclare(queue: queueName,
                                      durable: false,
                                      exclusive: false,
                                      autoDelete: false,
                                      arguments: null);
 
-                string message = "Merhaba RabbitMQ!";
-                var body = Encoding.UTF8.GetBytes(message);
+                var body = Encoding.UTF8.GetBytes(jsonData);
 
                 channel.BasicPublish(exchange: "",
-                                     routingKey: "hello",
+                                     routingKey: queueName,
                                      basicProperties: null,
                                      body: body);
 
-                Console.WriteLine(" [x] Gönderilen Mesaj: {0}", message);
+                Console.WriteLine($" [x] Gönderilen Veri ({queueName}): {jsonData}");
             }
         }
     }

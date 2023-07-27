@@ -16,3 +16,4 @@
 /home/turkai/Desktop/Oguz/dotnet/MyRabbitMQApp/MyRabbitMQApp/obj/Debug/net6.0/MyRabbitMQApp.pdb
 /home/turkai/Desktop/Oguz/dotnet/MyRabbitMQApp/MyRabbitMQApp/obj/Debug/net6.0/MyRabbitMQApp.genruntimeconfig.cache
 /home/turkai/Desktop/Oguz/dotnet/MyRabbitMQApp/MyRabbitMQApp/obj/Debug/net6.0/ref/MyRabbitMQApp.dll
+/home/turkai/Desktop/Oguz/dotnet/MyRabbitMQApp/MyRabbitMQApp/bin/Debug/net6.0/Newtonsoft.Json.dll
