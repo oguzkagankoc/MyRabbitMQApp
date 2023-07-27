@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WZtWUgTkXOp3gyoBd5RkE4i9wYwPZ2i6CQlDs55n/xPAmx3rRXghsVi59zlUQZBz7YGCN45BnF9//NjudF2Krw==",
+  "success": true,
+  "projectFilePath": "/home/turkai/Desktop/Oguz/dotnet/MyRabbitMQApp/MyRabbitMQApp/MyRabbitMQApp.csproj",
+  "expectedPackageFiles": [
+    "/home/turkai/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/home/turkai/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/turkai/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
